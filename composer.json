@@ -1,0 +1,5 @@
+{
+  "require": {
+    "bigbing/avos-php-sdk": "dev-master"
+  }
+}

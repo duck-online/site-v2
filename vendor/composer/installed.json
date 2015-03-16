@@ -1,0 +1,44 @@
+[
+    {
+        "name": "bigbing/avos-php-sdk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aidai524/avos-php-sdk.git",
+            "reference": "95cc7b5a4557acc34dc35209b2377ff5231e4582"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aidai524/avos-php-sdk/zipball/95cc7b5a4557acc34dc35209b2377ff5231e4582",
+            "reference": "95cc7b5a4557acc34dc35209b2377ff5231e4582",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2015-01-22 02:41:19",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Avos\\": "src/Avos/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "bigbing",
+                "email": "aidai524@gmail.com"
+            }
+        ],
+        "description": "Avos php sdk not offical",
+        "keywords": [
+            "avos",
+            "leancloud",
+            "sdk"
+        ]
+    }
+]
