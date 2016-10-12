@@ -20,7 +20,8 @@
 			<li role="presentation" class="active"><a href="#tree1" aria-controls="tree1" role="tab" data-toggle="tab">联邦-材料工程学</a></li>
 			<li role="presentation"><a href="#tree2" aria-controls="tree2" role="tab" data-toggle="tab">联邦-感应技术</a></li>
 			<li role="presentation"><a href="#tree3" aria-controls="tree3" role="tab" data-toggle="tab">联邦-生物及应用物理学</a></li>
-			<li role="presentation"><a href="#tree4" aria-controls="tree4" role="tab" data-toggle="tab">帝国-帝国技术科研所ITRI-T1</a></li>
+			<li role="presentation"><a href="#tree4" aria-controls="tree4" role="tab" data-toggle="tab">帝国-帝国技术科研所ITRI - 试验中心 Tier 1</a></li>
+			<li role="presentation"><a href="#tree5" aria-controls="tree4" role="tab" data-toggle="tab">帝国-帝国技术科研所ITRI - 试验中心 Tier 2</a></li>
 			<li role="presentation"><a href="#people" aria-controls="people" role="tab" data-toggle="tab">人物志</a></li>
 		  </ul>
 
@@ -39,6 +40,10 @@
 			<div role="tabpanel" class="tab-pane" id="tree4">
 
 				<img src="img/4.png">
+			</div>
+			<div role="tabpanel" class="tab-pane" id="tree5">
+
+				<img src="img/5.png">
 			</div>
 			<div role="tabpanel" class="tab-pane" id="people">
 				<h3>提坦斯南美秘密实验基地 - ??????(??????)</h3>
