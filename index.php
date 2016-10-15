@@ -26,9 +26,10 @@
 <!-- <a class='btn btn-info col-md-3' href="/history/">昨日回忆</a> -->
 </div>
 <div class="row">
+<a class='btn btn-info col-md-2' href="zyjl7.php">信标测试战</a>
 <a class='btn btn-info col-md-2' href="zyjl7.php">老郭暗杀战</a>
-<a class='btn btn-info col-md-3' href="zyjl6.php">废墟争夺战</a>
-<a class='btn btn-info col-md-3' href="zyjl5.php">殖民卫星突入战</a>
+<a class='btn btn-info col-md-2' href="zyjl6.php">废墟争夺战</a>
+<a class='btn btn-info col-md-2' href="zyjl5.php">殖民卫星突入战</a>
 <a class='btn btn-info col-md-2' href="zyjl4.php">ms战</a>
 <a class='btn btn-info col-md-2' href="zyjl3.php">间谍战</a>
 <a class='btn btn-info col-md-2' href="zyjl2.php">潛艇战</a>
