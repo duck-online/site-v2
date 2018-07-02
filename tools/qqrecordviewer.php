@@ -8,7 +8,7 @@
 //load file
 if ($_GET['path']){
     $txt=file_get_contents($_GET['path']);
-    $txt=preg_replace('/\d+-\d+-\d+ \d+:\d+:\d+ 某科学的可达鸭【gundam】\(\d+\)/i',"|duck|$0|",$txt);
+    $txt=preg_replace('/^\d+-\d+-\d+ \d+:\d+:\d+ .* \(\d+\)/i',"|duck|$0|",$txt);
     print($txt);
     
 }
