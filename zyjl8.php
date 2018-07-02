@@ -4,26 +4,6 @@
 
 $rsum=array();
 
-foreach(recload('xinbiao') as $r)
-{$r['type']='xinbiao';$r['time']=date('H:i:s',(strtotime($r['time'])+15*3600));array_push($rsum,$r);}
-//foreach(recload('fx-lzls') as $r)
-//{ $r['type']='lzls';$r['time']=date('H:i:s',strtotime($r['time'])+0*3600);array_push($rsum,$r);}
-
-
-function cmp($a, $b) {
-	$ta=strtotime($a['time']);
-	$tb=strtotime($b['time']);
-    if(abs($ta-$tb)<30) {
-        return 0;
-    }
-    return ($ta>$tb) ? (1) : (-1);
-}
-uasort($rsum,'cmp');
-
-//var_dump($rsum);
-
-file_put_contents('record/xinbiao.json',json_encode($rsum));
-
 $rsum=json_decode(file_get_contents('record/xinbiao.json'),1);
 ?>
 <html lang="zh-cn">
