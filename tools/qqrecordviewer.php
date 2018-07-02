@@ -8,7 +8,7 @@
 //load file
 if ($_GET['path']){
     $txt=file_get_contents($_GET['path']);
-    $txt=preg_replace('/^\d+-\d+-\d+ \d+:\d+:\d+ .* \(\d+\)/i',"|duck|$0|",$txt);
+    $txt=preg_replace('/^\d+-\d+-\d+ \d+:\d+:\d+.*\(\d+\)/',"|duck|$0|",$txt);
     print($txt);
     
 }
